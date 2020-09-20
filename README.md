@@ -4,7 +4,9 @@ DIY scaler for the Ludlum 3 survey meter based on an ESP32 board
 
 ## Description
 
-This repository contains my schematics and code for a DIY scaler and data logger for the [Ludlum Model 3 survey meter](https://ludlums.com/products/health-physics/product/model-3) **citca 2000**. **IMPORTANT:** this project is specific to my circa-2000 meter, serial 161535, and the board used at that time. The manual for the Model 3, August 1999, Serial No. 158918 and succeeding, is available on the [Geiger Counter Enthusiasts groups.io file section](https://groups.io/g/GeigerCounters/files/Manuals/LUDLUM/Ludlum%20model%203%20manuals/LUDLUM%20MODEL%203%20Serial%20No.%20158918%20and%20succeeding.pdf). This board has a 4-pin J4 option connector which is generally not populated unless the scaler option was added by the factory (in which case you probably don't need this information). Connector J4 has +5VDC, Ground, Pulse, and Battery + pins. The pulse pin is normally floating, and is pulled to ground for each count/pulse.
+This repository contains my schematics and code for a DIY scaler and data logger for the [Ludlum Model 3 survey meter](https://ludlums.com/products/health-physics/product/model-3) **circa 2000**.
+
+**IMPORTANT:** this project is specific to my circa-2000 meter, serial 161535, and the board used at that time. The manual for the Model 3, August 1999, Serial No. 158918 and succeeding, is available on the [Geiger Counter Enthusiasts groups.io file section](https://groups.io/g/GeigerCounters/files/Manuals/LUDLUM/Ludlum%20model%203%20manuals/LUDLUM%20MODEL%203%20Serial%20No.%20158918%20and%20succeeding.pdf). This board has a 4-pin J4 option connector which is generally not populated unless the scaler option was added by the factory (in which case you probably don't need this information). Connector J4 has +5VDC, Ground, Pulse, and Battery + pins. The pulse pin is normally floating, and is pulled to ground for each count/pulse.
 
 ## Hardware
 
