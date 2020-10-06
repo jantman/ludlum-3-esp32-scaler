@@ -36,6 +36,20 @@ This repository contains my schematics and code for a DIY scaler and data logger
 8. Wire up the panel connector. J4 should be on the lower right corner of the panel; pin 1 is closest to the edge of the panel and pin 4 is closest to the header next to it. Using the TE maintenance tool, terminate the leads from the input side of the 4N25 assembly to the receptacle. The lead from the resistor off of pin 1 on the optocoupler should go to position 1 on the receptacle (J4 pin 1, +5v). The lead from pin 2 of the optocoupler should go to position 3 on the receptacle (J4 pin 3, pulse). When finished, snap strain relief cap over wires.
 9. To test thus far: Insert a 3.5mm TRS plug into the jack. Clip test leads to the Tip and Ring pins. Connect the tip lead to GPIO 4 on your ESP32 and the ring lead to Ground on the ESP32. Power it up and write [inputtest.py](inputtest.py) to the board and run it. Turn on the meter and you should see counts.
 
+[![20200920_135411](images/20200920_135411_sm.jpg)](images/20200920_135411.jpg)
+
+[![20200920_140237](images/20200920_140237_sm.jpg)](images/20200920_140237.jpg)
+
+[![20200920_140332](images/20200920_140332_sm.jpg)](images/20200920_140332.jpg)
+
+[![20200920_140338](images/20200920_140338_sm.jpg)](images/20200920_140338.jpg)
+
+[![20200920_140455](images/20200920_140455_sm.jpg)](images/20200920_140455.jpg)
+
+[![20200920_144818](images/20200920_144818_sm.jpg)](images/20200920_144818.jpg)
+
+[![20200920_144828](images/20200920_144828_sm.jpg)](images/20200920_144828.jpg)
+
 ## Software
 
 ### Board preparation
